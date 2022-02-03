@@ -1,0 +1,308 @@
+
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@100;200;300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Asul:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+  font-family: 'Asul', sans-serif;
+}
+#name {
+  font-family: 'Dancing Script', handwriting;
+  font-size:32px ; 
+  font-weight: 800px;
+}
+
+
+
+
+
+.navbar-start{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    margin-left: 35%;
+    margin-top: 1.2%;
+}
+/* .subtitle{
+    inline-size: 20px;
+    overflow-wrap: break-word;
+    /* text-align: left; */
+    /* float:left;
+    padding: 80px 10px;
+    width: 30rem;
+    color: black;} */
+
+    .about{
+        color: black;
+        font-size: 42px;
+        margin-right: 15%;
+    
+      
+    }
+    .about span{
+        color:blue;
+    }
+    strong {
+        color: whitesmoke;
+        font-size: larger;
+        font-weight: 700;
+       
+    }
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .column {
+        flex-basis: 0;
+        flex-grow: 1;
+        flex-shrink: 3;
+        padding: 0.75em;
+    }
+    .is-small {
+        padding: 20px;
+    }
+    .icons{
+        margin-left: 3%;
+       
+    }
+    .cta {
+        position: relative;
+        margin: auto;
+        padding: 12px 18px;
+        transition: all 0.2s ease;
+        border: none;
+        background: none;
+        margin-left: 5%;
+       }
+       
+       .cta:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        border-radius: 50px;
+        background: #b1dae7;
+        width: 45px;
+        height: 45px;
+        transition: all 0.3s ease;
+       }
+       
+       .cta span {
+        position: relative;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        color: #234567;
+       }
+       
+       .cta svg {
+        position: relative;
+        top: 0;
+        margin-left: 10px;
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke: #234567;
+        stroke-width: 2;
+        transform: translateX(-5px);
+        transition: all 0.3s ease;
+       }
+       
+       .cta:hover:before {
+        width: 100%;
+        background: #b1dae7;
+       }
+       
+       .cta:hover svg {
+        transform: translateX(0);
+       }
+       
+       .cta:active {
+        transform: scale(0.95);
+       }
+       .container {
+        /* Background color */
+        background-image: url(../ilu/Wave-10s-1366px.png);
+    
+        /* You can use gradient background color such as
+    background: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.1) 100%); */
+    
+        /* Curved corners */
+        border-bottom-left-radius: 50% 40%;
+        border-bottom-right-radius: 80% 150%;
+    }
+    .services {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 42px;
+        font-weight: 700px;
+        color: black;
+        
+    }
+    .services1 {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        font-weight: 20px;
+        color:rgba(28, 28, 117, 0.705);
+        
+    }
+    .avatars {
+        display: flex;
+        padding-top: 10%;
+    }
+    
+    .avatars__item {
+        /* Nagative margin make avatar overlap to previous one */
+        margin-left: -4px;
+    }
+    
+    .avatars__image {
+        /* Add a white curve between avatars */
+        box-shadow: 0 0 0 4px #fff;
+    
+        /* Center the content */
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    
+        /* Rounded border */
+        border-radius: 9999px;
+    }
+    .year{
+        background-color: blue;
+        color: whitesmoke;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        padding-top: 8px;
+    }
+    .cardx{
+        width: 49%;
+    }
+    .containerx{
+        /* Used to position the diagonal area */
+        position: relative;
+    }
+    .card{
+        width: 70%;
+    }
+    
+    .containerx__diagonal {
+        /* Absolute position */
+        left: 0px;
+        position: absolute;
+        top: 0px;
+    
+        /* Take full size */
+        height: 100%;
+        width: 100%;
+    
+        /* Create diagonal sides */
+        transform: skewY(-5deg);
+    
+        /* Background color */
+        background-color:blue;
+    
+        /* Displayed under the main content */
+        z-index: -1;
+    }
+    
+    .motto{
+        background-color: blue;
+        color: whitesmoke;
+        text-align: center;
+       
+    }
+   .web{
+       background-color: darkblue;
+       color: whitesmoke;
+       text-align: center;
+       
+   } 
+   .mobile{
+       background-color: darkred;
+       text-align: center;
+       color: whitesmoke;
+   }
+    .desk{
+        background-color: yellow;
+        text-align: center;
+    
+    }
+    button {
+        cursor: pointer;
+        font-weight: 700;
+        font-family: Helvetica,"sans-serif";
+        transition: all .2s;
+        padding: 10px 20px;
+        border-radius: 100px;
+        background: #cfef00;
+        border: 1px solid transparent;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+       }
+       
+       button:hover {
+        background: #a6c900;
+       }
+       
+       button > svg {
+        width: 34px;
+        margin-left: 10px;
+        transition: transform .3s ease-in-out;
+       }
+       
+       button:hover svg {
+        transform: translateX(5px);
+       }
+       
+       button:active {
+        transform: scale(0.95);
+       }
+       
+        .mypic img{
+            border-radius: 300px;
+            height: 400px;
+            margin-left: 50%;
+        }       
+    
+    
+    
+    @media only screen and (max-width:960px){
+        .row{
+            display: flex;
+            flex-direction: column;
+        }
+        strong{
+            font-size: large;
+            font-weight: 500;
+            
+        }
+       #name{
+           font-size: 20px;
+       }
+       .services1{
+                font-size: 20px;
+                text-align: center;
+                font-weight: 200px;
+       }
+       .year{
+           width: 100%;
+           text-align: center;
+           padding-top: 10px;
+       }
+       .card{
+           width: 100%;
+       }
+       .mypic img{
+           margin-left: 0px;
+       }
+       
+    }
